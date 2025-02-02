@@ -12,3 +12,11 @@ for (let i = 0; i < sales.length; i++) {
     totalSales += sales[i];
 } // Using a for loop to calculate the total sales
 console.log(`Total sales: $${totalSales}`); // Logging the total sales
+
+// Task 3: While Loop
+let stock = 10; // Declaring a variable with an initial stock value 
+while (stock > 0) {
+    console.log(`Stock remaining: ${stock}`);
+    stock--;
+} // Using a while loop to decrease stock by 1 until it reaches zero
+console.log("Stock depleted."); // Logging final stock status
