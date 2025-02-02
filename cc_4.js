@@ -27,3 +27,9 @@ do {
     console.log(`Response count: ${responses}`);
     responses++;
 } while (responses < 3); // Using a do...while loop to collect responses until it reaches 3 
+
+// Task 5: For...In Loop
+let employee = {name: "Alice", position: "Manager", salary: 75000}; // Declaring an object employee 
+for (let key in employee) {
+    console.log(`${key}: ${employee[key]}`);
+}; // Using a for...in loop to iterate through the object properties, and logging each property and value 
