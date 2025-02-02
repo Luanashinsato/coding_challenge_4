@@ -39,3 +39,9 @@ let products = ["Smartphone", "Tablet", "Wireless Charger"]; // Declaring an arr
 for (let product of products) {
     console.log(`Product: ${product}`);
 } // Using a for...of loop to display each product and logging each product name
+
+// Task 7: forEach() Method
+let orders = [80, 81, 82]; // Declaring an array orders 
+orders.forEach(order => {
+    console.log(`Order ID: ${order}`)
+}); // Using the forEach() method to log each order ID 
