@@ -33,3 +33,9 @@ let employee = {name: "Alice", position: "Manager", salary: 75000}; // Declaring
 for (let key in employee) {
     console.log(`${key}: ${employee[key]}`);
 }; // Using a for...in loop to iterate through the object properties, and logging each property and value 
+
+// Task 6: For...Of Loop
+let products = ["Smartphone", "Tablet", "Wireless Charger"]; // Declaring an array products 
+for (let product of products) {
+    console.log(`Product: ${product}`);
+} // Using a for...of loop to display each product and logging each product name
